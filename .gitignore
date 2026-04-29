@@ -1,0 +1,46 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+env/
+
+# Model files
+*.pkl
+
+# Data files (optional)
+#data/*.csv
+data/titanic.csv
+
+
+# DVC cache
+.dvc/cache
+.dvcignore
+
+# MLflow
+mlflow.db
+mlruns/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ----------------------
+# Evidently Reports
+# ----------------------
+*.html
+drift_report.html
+
+# ----------------------
+# Jupyter
+# ----------------------
+.ipynb_checkpoints/
+
+# ----------------------
+# Misc
+# ----------------------
+*.sqlite3
